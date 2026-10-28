@@ -1,4 +1,4 @@
-# bias_analysis_edX_MOOC
+# BiasAnalysis-edX_MOOC
 
 This repository contains the code of the study presented in the paper *Pedro Manuel Moreno-Marcos, Alicia Ramirez-Arrabe, Carlos Alario-Hoyos, Pedro J. Muñoz-Merino, Iria Estévez-Ayres, and Carlos Delgado Kloos. 2026. Analysis of Bias in Student Modelling and Prediction Using Learning Analytics on edX MOOC Data. In Proceedings of the Learning Analytics Summer Institute Spain 2026, Zamora, Spain, May 2026 (LASI SPAIN '26)*.
 
