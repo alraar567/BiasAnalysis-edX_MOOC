@@ -6,7 +6,7 @@ This repository contains the code of the study presented in the paper *Pedro Man
 
 The paper analyzes possible biases that appear when estimating ability and difficulty of exercises with IRT, and when developing predictive models. The analyses were carried out using data from a MOOC about Java programming hosted in edX in a synchronous mode. The course was structured in five weeks, and each of them had a graded exam, with 5-8 exercises each. In addition, the course contained several videos per week and formative exercises (135 in total). In order to pass the course, students needed to get 60% of the points at least, and 88,324 users performed at least one action in the course.
 
-The dataset was processed to extract the following indepdnent variables:
+The dataset was processed to extract the following independent variables:
 
 - n_attempted: Total number of times students have attempted exercises.
 - per_attempted: Percentage of problems attempted by a student over the total number of exercise.
@@ -22,13 +22,13 @@ The dataset was processed to extract the following indepdnent variables:
 - n_responses: Total number of responses posted by each student.
 - n_days: Total number of comments posted by a student.
 
-Moreover, two dependent variables have been defined: dropout, which is a binary variable indicating whether or not the student has given up the course, and final_grade, which represents the final grade of each student.
+Moreover, two dependent variables were defined: dropout, which indicates whether or not the student has given up the course, and final_grade, which represents the final grade of each student.
 
 ## Repository structure
 
 * Indicadores – processing and extraction of the dataset's independent variables.
-* Abandono – computation of the dataset's dependet variable: students' dropout.
-* Grades –  computation of the dataset's dependet variable: students' final grades.
+* Abandono – computation of the dataset's dependent variable: students' dropout.
+* Grades –  computation of the dataset's dependent variable: students' final grades.
 * IRT – analyses made applying the Item Response Theory (IRT).
 * Modelos - training and evaluation of the implemented predictive models.
   
